@@ -1,0 +1,59 @@
+.table-wrapper {
+    overflow-x: scroll;
+  
+    margin-top: 22px;
+  
+    margin: 15px;
+    padding-bottom: 20px;
+  }
+  
+  table {
+    min-width: max-content;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0px;
+  }
+  
+  table th {
+    position: sticky;
+    top: 0px;
+  
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  th {
+    position: sticky;
+    top: 5px;
+  
+    background-color: #fff;
+    color: #000;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+  }
+  button {
+    padding: 5px;
+    border-radius: 5px;
+    color: #000;
+    border: 1px solid #fff;
+    background: #fff;
+    font-size: 15px;
+    width: 70px auto;
+  }
+  .lebel {
+    color: #fff;
+    text-decoration: underline;
+  }
+  .lebel:hover {
+    cursor: pointer;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #57565676;
+  }
+  
